@@ -1,6 +1,6 @@
 export default function ServicesSection() {
   return (
-    <section>
+    <section id = "services">
       <h2>Services & Prices</h2>
       <ul>
         <li>Classic manicure – €25</li>
