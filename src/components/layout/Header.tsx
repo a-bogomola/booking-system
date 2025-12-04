@@ -51,7 +51,7 @@ export default function Header() {
         className={`
           fixed top-0 right-0 z-50 h-full w-64 max-w-[80vw]
           bg-orange-50/90 shadow-xl border-l border-orange-300/80
-          transform transition-transform duration-300
+          transform transition-transform duration-300 flex flex-col 
           ${isOpen ? "translate-x-0" : "translate-x-full"}
         `}
       >
@@ -100,13 +100,13 @@ export default function Header() {
             className="
               mt-2 inline-flex w-full items-center justify-center
               rounded-md border border-orange-300 text-slate-900 font-medium
-              text-orange-300 bg-transperent
+              text-orange-300 bg-transparent
               hover:bg-orange-100
               transition
             "
             onClick={() => setIsOpen(false)}
           >
-            Log in / Profile
+            Log in
           </a>
         </div>
 
